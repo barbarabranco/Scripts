@@ -8,6 +8,9 @@ echo $extensao
 
 # for VAR in $LIST
 # do
-#     #convert 
 #     echo REALIZANDO A CONVERSÃO DO ARQUIVO: $VAR
 # done
+
+VAR="teste"
+echo $VAR
+
