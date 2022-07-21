@@ -1,6 +1,6 @@
 #!/bin/bash
 
-directory=/Users/barbara/CursoShell/Scripts
+directory=~/CursoShell/Scripts
 cd $directory/imagens-livros
 LIST=$(ls -la | awk '{print $9}')
 ls -la $directory

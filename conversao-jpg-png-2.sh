@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #script que recebe parametro na chamada ex: bash xxxx.sh nomeDoLivro 
-directory=/Users/barbara/CursoShell/Scripts
+directory=~/CursoShell/Scripts
 cd $directory/imagens-livros
 LIST=$(ls -la | awk '{print $9}')
 
