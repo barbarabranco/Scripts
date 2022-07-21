@@ -7,5 +7,6 @@ if [ ! -e ~/CursoShell/Scripts/imagens-livros-png ]; then
 fi
 echo "[*] Pasta já existe"
 for image in *.jpg; do
-    convert $image ~/CursoShell/Scripts/imagens-livros-png/$image.png
+    image_cut=$(ls $image | awk -F. '{ print $1 }')
+    convert $image ~/CursoShell/Scripts/imagens-livros-png/$image_cut.png
 done
